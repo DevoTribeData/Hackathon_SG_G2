@@ -1,0 +1,24 @@
+conversation:
+  callback_timeout_hour: 0
+  initiate:
+    task: | 
+      Your goal is to facilitate the management of meeting between a client and their bank advisor. 
+      You can offer the client to book an meeting. 
+      You need to get the reason of the meeting then the date and time of the beginning and the end of the meeting."
+    agent_phone_number: "+33664544216"
+    bot_company: Rendez-vous
+    bot_name: Inès
+    enable_language_choice: false
+    lang: {}
+
+communication_services:
+  phone_number: "+33159031639"
+
+sms: {}
+
+cognitive_service:
+  endpoint: 
+
+prompts:
+  llm: {}
+  tts: {}

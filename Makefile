@@ -81,7 +81,7 @@ tunnel:
 	devtunnel host $(tunnel_name)
 
 dev:
-	VERSION=$(version_full) PUBLIC_DOMAIN=$(tunnel_url) func start
+	VERSION=$(version_full) PUBLIC_DOMAIN=$(tunnel_url) func start 
 
 deploy:
 	@echo "👀 Current subscription:"

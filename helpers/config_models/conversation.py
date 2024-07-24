@@ -69,6 +69,7 @@ class LanguageModel(BaseModel):
 
 
 class WorkflowInitiateModel(BaseModel):
+    enable_language_choice: bool
     agent_phone_number: PhoneNumber
     bot_company: str
     bot_name: str

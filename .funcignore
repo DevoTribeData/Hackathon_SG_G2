@@ -25,3 +25,5 @@ __pycache__/
 .github/
 
 .venv
+
+local.settings.*.json

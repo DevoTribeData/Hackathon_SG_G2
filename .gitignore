@@ -6,7 +6,7 @@
 .pytest_cache/
 
 # Local app config file
-config*.yaml
+config.*.yaml
 
 # Test reports
 test-reports/
