@@ -46,6 +46,7 @@ var config = {
   }
   conversation: {
     initiate: {
+      enable_language_choice: localConfig.conversation.initiate.enable_language_choice
       agent_phone_number: localConfig.conversation.initiate.agent_phone_number
       bot_company: localConfig.conversation.initiate.bot_company
       bot_name: localConfig.conversation.initiate.bot_name
